@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f5f7fa;
+  --foreground: #171717;
+}
+
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+html {
+  scroll-behavior: smooth;
+}
+.swiper-scrollbar-drag {
+  background: #727c73;
+}
+.leaflet-control-attribution {
+  display: none;
+}
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  border-radius: 0.5rem;
+}
